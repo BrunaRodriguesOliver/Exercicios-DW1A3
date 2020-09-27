@@ -1,0 +1,54 @@
+.calculadora{
+  background-color: #aaaaaa;
+   width: 20%;
+   margin: auto;
+   padding: 10px;
+   border-radius: 10px; 
+}
+
+button{
+    width: 3.5rem;
+    height: 3.5rem;
+    margin: auto;
+    font-size: 20px;
+}
+
+.calculadora-tela{
+    background-color: #cccccc;
+    width: 90%;
+    height: 40px;
+    text-align: right;
+    margin: 10px;
+    font-size: 26px;
+    border-color: #ffffff;
+    border-style: solid;
+    border-width: 2px 0 0 2px;    
+}
+
+.calculadora-teclado{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-row-gap: 10px;
+    grid-column-gap: 10px;
+    padding: 10px;
+}
+
+.zero{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    width: 100%;
+    border-color: #ffffff;
+    border-style: solid;
+    border-width: 2px 0 0 2px;
+}
+
+.soma{
+    grid-row-start: 4 ;
+    grid-row-end: 6;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    height: 100%;
+    border-color: #ffffff;
+    border-style: solid;
+    border-width: 2px 0 0 2px;
+}
