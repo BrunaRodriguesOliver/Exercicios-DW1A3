@@ -1,0 +1,20 @@
+h2{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+form{
+    margin: auto;
+}
+
+form label, form legend {
+    display: block;
+    font-size: 18px;
+}
+
+.input-padrao{
+    display: block;
+    margin: 0 0 20px;
+    width: 40%;
+}
+
